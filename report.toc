@@ -1,0 +1,18 @@
+\contentsline {chapter}{\numberline {1}Introduction and Theoretical Motivation}{3}
+\contentsline {chapter}{\numberline {2}Current System Description}{5}
+\contentsline {section}{\numberline {2.1}Emission Model}{5}
+\contentsline {subsection}{\numberline {2.1.1}Feature Extraction}{5}
+\contentsline {subsubsection}{\numberline {2.1.1.1}The Data}{5}
+\contentsline {subsubsection}{\numberline {2.1.1.2}Preprocessing}{5}
+\contentsline {subsection}{\numberline {2.1.2}Segment Classification}{6}
+\contentsline {section}{\numberline {2.2}Transition Model}{7}
+\contentsline {section}{\numberline {2.3}Chord Sequence Generation}{7}
+\contentsline {chapter}{\numberline {3}Evaluation and Analysis}{9}
+\contentsline {section}{\numberline {3.1}Predicting Chord Tones from Data}{9}
+\contentsline {section}{\numberline {3.2}Predicting Chords from Chord Tones}{9}
+\contentsline {section}{\numberline {3.3}Overall Performance of Local Emission Model}{11}
+\contentsline {chapter}{\numberline {4}Conclusion and Further Work}{13}
+\contentsline {section}{\numberline {4.1}Remaing Work of Part 1}{13}
+\contentsline {section}{\numberline {4.2}Part 2}{13}
+\contentsline {section}{\numberline {4.3}Final Remarks}{14}
+\contentsline {chapter}{Bibliography}{15}

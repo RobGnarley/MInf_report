@@ -1,6 +1,6 @@
-\documentclass[bsc,singlespacing,parskip,deptreport]{infthesis}
-%twoside
-%frontabs
+\documentclass[bsc,singlespacing,parskip,deptreport,twoside,frontabs]{infthesis}
+
+
 \usepackage{graphicx}
 \begin{document}
 
@@ -22,9 +22,9 @@ Hey look an abstract.
 
 \maketitle
 
-%\tableofcontents
+\tableofcontents
 
-%\pagenumbering{arabic}
+\pagenumbering{arabic}
 
 
 \chapter{Introduction and Theoretical Motivation}
@@ -37,13 +37,13 @@ $$
 P(o_t) = P(o_t | s_t)P(s_t | s_{1:t}) 
 $$
 
-The task of the first year of this project is to design an baseline Hidden Markov Model system, where the transition model is the first order markov assumption:
+The task of the first year of this project is to design a baseline Hidden Markov Model system, where the transition model is the first order markov assumption:
 
 $$
 P(s_t | s_{1:t}) = P(s_t | s_{t-1}) 
 $$
 
-This allows the focus to be on designing an emission model that best captures the relationship between the observations and the underlying chord. This process can be split into two tasks, feature extraction and segment classification. The approach taken to both will be detailed as well as planned future improvements.
+This allows the focus to be on designing an emission model that best captures the relationship between the observations and the underlying chord. This process can be split into two tasks, feature extraction and segment classification. The approach taken to both will be detailed as well as planned future improvements. 
 
 
 \chapter{Current System Description}
@@ -164,7 +164,8 @@ Finally further experiments shall be carried out over different variations of th
 
 The primary purpose of the second year of this project is to investigate the effects extended structural analysis with more complex transition models.
 
-One proposed method is to adapt a jazz parser presented by \cite{ccg}, that currently uses Combinatory Categorical Grammars (CCGs) to analyse jazz chord sequences. As it is a statistical model, it could be adapted to give probabilities of individual chord sequences. This could be combined with an emission model of notes to chords to create a system that could search for the overall most probable harmonic analysis.
+One proposed method is to adapt a jazz parser presented by \cite{ccg}
+ that currently uses Combinatory Categorical Grammars (CCGs) to analyse jazz chord sequences. As it is a statistical model, it could be adapted to give probabilities of individual chord sequences. This could be combined with an emission model of notes to chords to create a system that could search for the overall most probable harmonic analysis.
 
 Other language models that take into account extended sequential structure and context are those involving Recurrent Neural Networks (RNNs) \cite{rnn}. An RNN based approach will also be implemented, in comparison with the grammar model.
 

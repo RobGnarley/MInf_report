@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2015.9.10)  22 MAR 2016 03:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2015.9.10)  23 MAR 2016 02:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -182,7 +182,7 @@ LaTeX Font Info:    ... okay on input line 5.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(113.81102pt, 412.56497pt, 71.13188pt)
 * v-part:(T,H,B)=(56.9055pt, 674.33032pt, 113.81102pt)
 * \paperwidth=597.50787pt
@@ -190,13 +190,13 @@ LaTeX Font Info:    ... okay on input line 5.
 * \textwidth=412.56497pt
 * \textheight=674.33032pt
 * \oddsidemargin=41.54103pt
-* \evensidemargin=41.54103pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=85.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -204,8 +204,8 @@ LaTeX Font Info:    ... okay on input line 5.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -279,7 +279,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 
 [1
 
-{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 23.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
@@ -290,40 +292,49 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 10.79993pt on input line 23.
- [1
+ [3]
+[4
 
 ]
-Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 30.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 36
-.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+(Font)              scaled to size 22.39185pt on input line 25.
+ (./report.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 3.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 36
-.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 3.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 36
-.
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 3.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
- [2
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `report.toc'.
+
+ [1] [2
+
+]
+Chapter 1.
+[3] [4
 
 ]
 Chapter 2.
@@ -337,39 +348,37 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 55.
-[3
-
-] [4] [5] [6]
+[5] [6] [7] [8]
 Chapter 3.
-<ct1.png, id=34, 501.875pt x 401.5pt>
+<ct1.png, id=49, 501.875pt x 401.5pt>
 File: ct1.png Graphic file (type png)
  <use ct1.png>
 Package pdftex.def Info: ct1.png used on input line 114.
 (pdftex.def)             Requested size: 250.93687pt x 200.7495pt.
 
-<ch.png, id=35, 501.875pt x 401.5pt>
+<ch.png, id=50, 501.875pt x 401.5pt>
 File: ch.png Graphic file (type png)
  <use ch.png>
 Package pdftex.def Info: ch.png used on input line 126.
 (pdftex.def)             Requested size: 250.93687pt x 200.7495pt.
- [7
+ [9
 
-] [8 <./ct1.png> <./ch.png>] <em.png, id=44, 501.875pt x 401.5pt>
+] [10 <./ct1.png> <./ch.png>] <em.png, id=60, 501.875pt x 401.5pt>
 File: em.png Graphic file (type png)
  <use em.png>
 Package pdftex.def Info: em.png used on input line 138.
 (pdftex.def)             Requested size: 250.93687pt x 200.7495pt.
 
-<time.png, id=45, 501.875pt x 401.5pt>
+<time.png, id=61, 501.875pt x 401.5pt>
 File: time.png Graphic file (type png)
  <use time.png>
 Package pdftex.def Info: time.png used on input line 144.
 (pdftex.def)             Requested size: 250.93687pt x 200.7495pt.
- [9 <./em.png> <./time.png>]
-Chapter 4.
-[10
+ [11 <./em.png> <./time.png>] [12
 
-] [11]
+]
+Chapter 4.
+[13] [14]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -381,15 +390,15 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ½ in font ptmr7t!
- [12
+ [15
 
 ] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3666 strings out of 495063
- 56289 string characters out of 3182201
- 114480 words of memory out of 3000000
- 6777 multiletter control sequences out of 15000+200000
- 41406 words of font info for 76 fonts, out of 3000000 for 9000
+ 3671 strings out of 495063
+ 56335 string characters out of 3182201
+ 114561 words of memory out of 3000000
+ 6778 multiletter control sequences out of 15000+200000
+ 42513 words of font info for 77 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  43i,6n,40p,1022b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
@@ -401,10 +410,10 @@ e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
 tic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (13 pages, 128500 bytes).
+Output written on report.pdf (19 pages, 135277 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
